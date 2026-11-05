@@ -75,7 +75,6 @@ export const projects: Project[] = [
     results: [
       { kind: 'verified', label: 'Dashboards covering 500+ SKUs', note: 'Developed and maintained in my current role.' },
       { kind: 'qualitative', label: 'One consistent view of product performance', note: 'Replaces ad-hoc consolidation of separate files.' },
-      { kind: 'placeholder', label: 'Add a confirmed outcome', note: 'e.g. report preparation time or adoption — edit src/data/projects.ts' },
     ],
     learnings: [
       'Most dashboard quality is decided in the SKU mapping, long before the visuals.',
@@ -113,7 +112,7 @@ export const projects: Project[] = [
     results: [
       { kind: 'verified', label: 'Validation coverage across 1,000+ accounts', note: 'Reseller and partner pricing and margin data.' },
       { kind: 'verified', label: 'Discrepancies identified through compliance monitoring' },
-      { kind: 'placeholder', label: 'Add a confirmed outcome', note: 'e.g. review turnaround — edit src/data/projects.ts' },
+      { kind: 'verified', label: 'Stable distributor margins across 1,000+ resellers and partners', note: 'Monthly margin calculations plus deal-margin vs revenue checks.' },
     ],
     learnings: [
       'A tolerance threshold turns a noisy list into a focused review queue.',
@@ -151,7 +150,7 @@ export const projects: Project[] = [
     results: [
       { kind: 'verified', label: '~60% reduction in manual work', note: 'Approximate, for the automated recurring reports and memos.' },
       { kind: 'qualitative', label: 'More consistent formatting and fewer copy-paste steps' },
-      { kind: 'placeholder', label: 'Add a confirmed outcome', note: 'e.g. number of reports automated — edit src/data/projects.ts' },
+      { kind: 'verified', label: 'Faster turnaround for sales communications', note: 'Recurring reports and memos generated with Excel VBA.' },
     ],
     learnings: [
       'Automation starts with standardising the inputs, not with code.',
@@ -189,7 +188,8 @@ export const projects: Project[] = [
     results: [
       { kind: 'verified', label: 'Supported campaigns reaching up to 2× GMV growth', note: 'A team result during major e-commerce campaigns.' },
       { kind: 'verified', label: 'Monthly performance analyses and recommendations' },
-      { kind: 'placeholder', label: 'Add a confirmed outcome', note: 'edit src/data/projects.ts' },
+      { kind: 'verified', label: '₱40M+ monthly revenue from managed campaigns', note: 'Across Meta, Google, TikTok, Shopee and Lazada.' },
+      { kind: 'verified', label: '15% conversion improvement on under-performing SKUs', note: 'SKUs below 5% CVR, after pricing, creative or targeting changes.' },
     ],
     learnings: [
       'ROAS without conversion and order context can be misleading.',
@@ -265,7 +265,7 @@ export const projects: Project[] = [
     results: [
       { kind: 'verified', label: 'Pricing compliance monitoring with discrepancy identification' },
       { kind: 'qualitative', label: 'A review-first workflow — no automatic external messages' },
-      { kind: 'placeholder', label: 'Add a confirmed outcome', note: 'edit src/data/projects.ts' },
+      { kind: 'verified', label: 'Daily pricing audits across all online resellers', note: 'Run with a custom-built web crawler.' },
     ],
     learnings: [
       'Listing-to-SKU matching is the hardest — and most important — step.',

@@ -67,12 +67,24 @@ export const roles: Role[] = [
     start: '2022-08',
     end: '2023-02',
     phaseIds: ['ecom'],
-    summary: 'Promoted to Specialist II, continuing to support the e-commerce operations of the Toys"R"Us business.',
+    summary:
+      'Promoted to Specialist II, owning Lazada listings, SKU data, pricing accuracy and daily order fulfilment for the Toys"R"Us online store.',
     responsibilities: [
-      { text: 'Add key responsibilities for this role in src/data/experience.ts', placeholder: true },
+      { text: 'Managed and updated product listings on Lazada, keeping content and availability accurate.' },
+      { text: 'Maintained and configured SKUs: data encoding, system updates and product categorisation.' },
+      { text: 'Ensured pricing accuracy and consistency across all Lazada product listings.' },
+      { text: 'Processed daily orders and coordinated fulfilment to meet shipping deadlines.' },
+      { text: 'Provided operational support for warehouse management and day-to-day logistics.' },
     ],
-    accomplishments: [{ text: 'Add a confirmed accomplishment', placeholder: true }],
-    tools: [{ text: 'Add tools used', placeholder: true }],
+    accomplishments: [
+      { text: 'Promoted from E-commerce Specialist I in August 2022.' },
+      { text: 'Completed Excel, SQL & Power BI for Data Analytics (Refocus Digital Academy, February 2023).' },
+    ],
+    tools: [
+      { text: 'Lazada Seller Center' },
+      { text: 'Excel' },
+      { text: 'Order management' },
+    ],
   },
   {
     id: 'trus-ecom1',
@@ -82,12 +94,21 @@ export const roles: Role[] = [
     start: '2019-07',
     end: '2022-08',
     phaseIds: ['ecom'],
-    summary: 'Moved from central administration into e-commerce, supporting the online retail operations of the Toys"R"Us business.',
+    summary:
+      'Moved from central administration into e-commerce, supporting customers, listings and order dispatch for the Toys"R"Us online store.',
     responsibilities: [
-      { text: 'Add key responsibilities for this role in src/data/experience.ts', placeholder: true },
+      { text: 'Handled customer inquiries via Lazada chat, resolving product, service and delivery issues promptly.' },
+      { text: 'Onboarded new products to Lazada with complete, optimised listings.' },
+      { text: 'Supported the processing, packing and coordination of online orders for fast dispatch.' },
     ],
-    accomplishments: [{ text: 'Add a confirmed accomplishment', placeholder: true }],
-    tools: [{ text: 'Add tools used', placeholder: true }],
+    accomplishments: [
+      { text: 'Three years of hands-on marketplace operations, leading to promotion to Specialist II.' },
+    ],
+    tools: [
+      { text: 'Lazada Seller Center' },
+      { text: 'Lazada chat' },
+      { text: 'Order management' },
+    ],
   },
   {
     id: 'trus-admin',
@@ -97,11 +118,20 @@ export const roles: Role[] = [
     start: '2018-08',
     end: '2019-08',
     phaseIds: ['admin'],
-    summary: 'Started in central administration — the operational foundation for the move into e-commerce.',
+    summary:
+      'Started in central administration, keeping store documents and tax compliance in order: the operational foundation for the move into e-commerce.',
     responsibilities: [
-      { text: 'Add key responsibilities for this role in src/data/experience.ts', placeholder: true },
+      { text: 'Oversaw the flow and filing of internal documents across store operations.' },
+      { text: 'Prepared, compiled and submitted BIR requirements for in-store tax compliance.' },
+      { text: 'Assisted in printing and organising financial books and ledgers for annual BIR audits.' },
     ],
-    accomplishments: [],
-    tools: [{ text: 'Add tools used', placeholder: true }],
+    accomplishments: [
+      { text: 'Completed Microsoft Excel Training (Robinsons Retail Holdings, May 2019).' },
+      { text: 'Moved into the e-commerce team in July 2019.' },
+    ],
+    tools: [
+      { text: 'Excel' },
+      { text: 'Document management' },
+    ],
   },
 ];

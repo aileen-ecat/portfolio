@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { ArrowUp, Check } from '../ui/icons';
+import { ArrowUp, Check, Mail } from '../ui/icons';
 import { profile } from '../../data/profile';
 import { useUI } from '../../context/UIContext';
 import { LinkedInIcon } from '../ui/Icon';
@@ -62,12 +62,15 @@ export function Footer() {
             <a className="icon-btn" href={profile.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in a new tab)">
               <LinkedInIcon size={16} />
             </a>
+            <a className="icon-btn" href={`mailto:${profile.email}`} aria-label="Email">
+              <Mail size={16} aria-hidden="true" />
+            </a>
             <button type="button" className="icon-btn" onClick={() => scrollToSection('overview')} aria-label="Back to top">
               <ArrowUp size={16} aria-hidden="true" />
             </button>
           </div>
           <p className="max-w-md text-xs md:text-right">
-            © {new Date().getFullYear()} {profile.name}. All dashboards, simulators and demo datasets on this site use illustrative data — not actual company records.
+            © {new Date().getFullYear()} {profile.name}. Dashboards, simulators and demo datasets use illustrative data.
           </p>
         </div>
       </div>

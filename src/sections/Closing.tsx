@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { ArrowUpRight, BookOpen, Globe, Check, Copy, GraduationCap, Mail, MapPin, Quote } from '../components/ui/icons';
+import { ArrowUpRight, BookOpen, Check, Copy, GraduationCap, Mail, MapPin, Quote } from '../components/ui/icons';
 import { education, trainings, type Credential } from '../data/credentials';
 import { profile } from '../data/profile';
 import { roles } from '../data/experience';
 import { useUI } from '../context/UIContext';
 import { copyText } from '../lib/clipboard';
-import { LinkedInIcon } from '../components/ui/Icon';
+import { LinkedInIcon, VantelyraIcon } from '../components/ui/Icon';
 import { Magnetic, MiniHeading, Reveal, SectionHeading, asset, cx } from '../components/ui/primitives';
 import { LearnGlyph, PersonGlyph } from '../components/ui/DataIcons';
 
@@ -213,7 +213,7 @@ export function Contact() {
                 </Magnetic>
                 <Magnetic>
                   <a href={profile.company.url} target="_blank" rel="noopener noreferrer" className="btn border border-ink-fg/25 text-ink-fg hover:bg-ink-fg/10">
-                    <Globe size={16} aria-hidden="true" /> {profile.company.name}
+                    <VantelyraIcon size={17} /> {profile.company.name}
                   </a>
                 </Magnetic>
               </div>

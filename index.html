@@ -14,13 +14,18 @@
     <meta name="theme-color" content="#15111A" media="(prefers-color-scheme: dark)" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
 
-    <!-- Open Graph / social. Replace og:url and og:image with absolute URLs after deploying. -->
+    <!-- Open Graph / social. %SITE_URL% becomes the absolute site address at build time (see vite.config.ts). -->
+    <meta property="og:url" content="%SITE_URL%" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Aileen Grace Ecat — Turning Data Into Decisions" />
     <meta property="og:description" content="Business intelligence, analytics and reporting automation. Explore interactive data architectures, case studies and analytics simulators." />
-    <meta property="og:image" content="./images/portrait.jpg" />
+    <meta property="og:image" content="%SITE_URL%og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Aileen Grace Ecat: Turning Data Into Decisions" />
     <meta property="og:locale" content="en_PH" />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="%SITE_URL%og-image.png" />
     <meta name="twitter:title" content="Aileen Grace Ecat — Turning Data Into Decisions" />
     <meta name="twitter:description" content="Business intelligence, analytics and reporting automation portfolio." />
 

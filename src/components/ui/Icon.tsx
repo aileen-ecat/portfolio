@@ -15,6 +15,19 @@ export function Icon({ name, ...props }: { name: IconName } & GlyphProps) {
 }
 
 /** LinkedIn mark (drawn here so it matches the other icons). */
+/**
+ * Vantelyra's logo mark (the split "V", from the Vantelyra site's logo-mark.svg),
+ * recoloured for this site: the long stroke follows the text colour, the short one takes the rose accent.
+ */
+export function VantelyraIcon({ size = 18, className = '' }: { size?: number; className?: string }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 427 364" aria-hidden="true" className={className}>
+      <path d="M20 22 L215 344 L261 264 L120 25 Z" fill="currentColor" />
+      <path d="M407 20 L320 20 L231 166 L274 239 Z" fill="var(--rose)" />
+    </svg>
+  );
+}
+
 export function LinkedInIcon({ size = 18, className = '' }: { size?: number; className?: string }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className={className}>

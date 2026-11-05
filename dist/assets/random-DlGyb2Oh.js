@@ -1,0 +1,1 @@
+function e(e){let t=e>>>0;return()=>{t=t+1831565813>>>0;let e=t;return e=Math.imul(e^e>>>15,e|1),e^=e+Math.imul(e^e>>>7,e|61),((e^e>>>14)>>>0)/4294967296}}var t=(e,t=0)=>{let n=10**t;return Math.round(e*n)/n};export{t as n,e as t};
